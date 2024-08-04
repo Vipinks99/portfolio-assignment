@@ -36,38 +36,6 @@ Follow these steps to set up and run the project locally:
 
     The application will start on `http://localhost:3000`.
 
-## Project Structure
-portfolio-assignment/
-├── public/
-│ └── index.html
-├── src/
-│ ├── components/
-│ │ ├── login/
-│ │ │ └── Login.js
-│ │ ├── main-page/
-│ │ │ └── MainPage.js
-│ │ ├── navbar/
-│ │ │ └── Navbar.js
-│ │ ├── dashboard/
-│ │ │ └── Dashboard.js
-│ │ ├── about/
-│ │ │ └── About.js
-│ │ ├── projects/
-│ │ │ └── Projects.js
-│ │ ├── contact/
-│ │ │ └── Contact.js
-│ │ └── card/
-│ │ └── Card.js
-│ ├── contexts/
-│ │ └── AuthContext.js
-│ ├── App.js
-│ ├── App.css
-│ └── index.js
-├── .gitignore
-├── package.json
-└── README.md
-
-
 ## Usage
 
 ### Authentication
@@ -92,7 +60,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-- Your Name: Vipin Kumar Singh
+- Name: Vipin Kumar Singh
 - Email: contact.vipinkumarsingh@gmail.com
 
 Feel free to reach out if you have any questions or need further assistance!
