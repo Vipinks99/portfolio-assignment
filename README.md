@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# React Portfolio Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-based portfolio application that includes a login page, a main page with a dashboard, about section, project section, and contact section. The application also features a responsive navbar with a hamburger menu and handles authentication using React Context and `localStorage`.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Responsive Design**: Fully responsive design with a sticky navbar.
+- **Authentication**: Users must log in to access the main portfolio page.
+- **Protected Routes**: Users are redirected to the login page if they try to access protected routes without authentication.
+- **Persistent Authentication**: Authentication state is persisted across page refreshes using `localStorage`.
+- **Logout Functionality**: Users can log out, which clears their authentication state.
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Include a link or a gif/screenshot of the project here (if available).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+Follow these steps to set up and run the project locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/yourusername/react-portfolio.git
+    cd react-portfolio
+    ```
 
-### `npm run build`
+2. **Install dependencies**:
+    ```sh
+    npm install
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Run the application**:
+    ```sh
+    npm start
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    The application will start on `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
+react-portfolio/
+├── public/
+│ └── index.html
+├── src/
+│ ├── components/
+│ │ ├── login/
+│ │ │ └── Login.js
+│ │ ├── main-page/
+│ │ │ └── MainPage.js
+│ │ ├── navbar/
+│ │ │ └── Navbar.js
+│ │ ├── dashboard/
+│ │ │ └── Dashboard.js
+│ │ ├── about/
+│ │ │ └── About.js
+│ │ ├── projects/
+│ │ │ └── Projects.js
+│ │ ├── contact/
+│ │ │ └── Contact.js
+│ │ └── card/
+│ │ └── Card.js
+│ ├── contexts/
+│ │ └── AuthContext.js
+│ ├── App.js
+│ ├── App.css
+│ └── index.js
+├── .gitignore
+├── package.json
+└── README.md
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Authentication
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Login**: Navigate to the login page and enter the credentials to log in. If the credentials are valid, you will be redirected to the portfolio page.
+2. **Protected Routes**: Accessing the `/portfolio` route directly without being authenticated will redirect you to the login page.
+3. **Logout**: Click the logout button in the navbar to log out and clear the authentication state.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Adding New Components
 
-## Learn More
+- To add new components, create a new file in the `src/components` directory.
+- Import and use the new component in the appropriate parent component.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Customizing Styles
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- The main CSS file is located at `src/App.css`.
+- Each component has its own CSS file in the same directory as the component.
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-### Analyzing the Bundle Size
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Your Name: Vipin Kumar Singh
+- Email: contact.vipinkumarsingh@gmail.com
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to reach out if you have any questions or need further assistance!
