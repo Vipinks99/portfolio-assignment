@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/github.io/portfolio-assignment/static/css/main.f6d71d2e.css",
+    "main.js": "/github.io/portfolio-assignment/static/js/main.aaf3bb7b.js",
+    "static/js/453.1407b060.chunk.js": "/github.io/portfolio-assignment/static/js/453.1407b060.chunk.js",
+    "static/media/e-commerce.png": "/github.io/portfolio-assignment/static/media/e-commerce.9021a4865baea53110ab.png",
+    "static/media/froot_root.png": "/github.io/portfolio-assignment/static/media/froot_root.c7a5227d6f9a974f7a6d.png",
+    "static/media/profile-1.jpeg": "/github.io/portfolio-assignment/static/media/profile-1.d487a301a43e63a7efd2.jpeg",
+    "static/media/box_office_app.png": "/github.io/portfolio-assignment/static/media/box_office_app.3c8baa15c3d9f4eb1aaf.png",
+    "index.html": "/github.io/portfolio-assignment/index.html",
+    "main.f6d71d2e.css.map": "/github.io/portfolio-assignment/static/css/main.f6d71d2e.css.map",
+    "main.aaf3bb7b.js.map": "/github.io/portfolio-assignment/static/js/main.aaf3bb7b.js.map",
+    "453.1407b060.chunk.js.map": "/github.io/portfolio-assignment/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6d71d2e.css",
+    "static/js/main.aaf3bb7b.js"
+  ]
+}
