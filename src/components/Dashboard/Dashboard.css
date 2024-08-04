@@ -1,0 +1,23 @@
+.dashboard-content {
+    margin-top: 4%;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    padding: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .dashboard-heading {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-content {
+      padding: 1rem;
+    }
+  }
+  
