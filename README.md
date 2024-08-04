@@ -1,6 +1,6 @@
 # React Portfolio Application
 
-This is a React-based portfolio application that includes a login page, a main page with a dashboard, about section, project section, and contact section. The application also features a responsive navbar with a hamburger menu and handles authentication using React Context and `localStorage`.
+This is a React-based portfolio application that includes a login page, a main page with a dashboard, about section, project section, and contact section. The application also features a responsive navbar with menu and handles authentication using React Context and `localStorage`.
 
 ## Features
 
@@ -20,8 +20,8 @@ Follow these steps to set up and run the project locally:
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/react-portfolio.git
-    cd react-portfolio
+    git clone https://github.com/yourusername/portfolio-assignment.git
+    cd portfolio-assignment
     ```
 
 2. **Install dependencies**:
@@ -37,7 +37,7 @@ Follow these steps to set up and run the project locally:
     The application will start on `http://localhost:3000`.
 
 ## Project Structure
-react-portfolio/
+portfolio-assignment/
 ├── public/
 │ └── index.html
 ├── src/
